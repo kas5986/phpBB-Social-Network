@@ -58,7 +58,7 @@
 				return false;
 			}
 
-			if ($sn.mobileBrowser && Math.min($(window).height(), $(window).width()) < 700 || $(window).width() < 650) {
+			if ($sn.mobileBrowser && Math.min(screen.height, screen.width) < 750 || screen.width < 750) {
 				$sn.enableModules.im = false;
 			}
 
